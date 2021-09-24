@@ -8,6 +8,22 @@ export const GlobalStyle = createGlobalStyle`
         --greyMedium: #F4F4F4;
     }
 
+    @font-face {
+        font-family: 'Montserrat';
+        src: url('../assets/fonts/Montserrat-Medium.ttf') format('truetype');
+        font-weight: 500;
+    }
+    @font-face {
+        font-family: 'Montserrat';
+        src: url('../assets/fonts/Montserrat-SemiBold.ttf') format('truetype');
+        font-weight: 600;
+    }
+    @font-face {
+        font-family: 'Montserrat';
+        src: url('../assets/fonts/Montserrat-Bold.ttf') format('truetype');
+        font-weight: 700;
+    }
+
     *{
     margin: 0;
     padding: 0;
