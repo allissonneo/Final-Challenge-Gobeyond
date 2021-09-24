@@ -12,16 +12,19 @@ export const GlobalStyle = createGlobalStyle`
         font-family: 'Montserrat';
         src: url('../assets/fonts/Montserrat-Medium.ttf') format('truetype');
         font-weight: 500;
+        font-display: swap;
     }
     @font-face {
         font-family: 'Montserrat';
         src: url('../assets/fonts/Montserrat-SemiBold.ttf') format('truetype');
         font-weight: 600;
+        font-display: swap;
     }
     @font-face {
         font-family: 'Montserrat';
         src: url('../assets/fonts/Montserrat-Bold.ttf') format('truetype');
         font-weight: 700;
+        font-display: swap;
     }
 
     *{
