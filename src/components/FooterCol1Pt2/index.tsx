@@ -3,21 +3,21 @@ import { Container } from "./styles";
 export function FooterPtDois() {
     return (
         <Container>
-            <div className='menuFooter'>
+            <a target="_blank" rel='noreferrer' href='https://www.corebiz.ag/pt/about/' className='menuFooter'>
                 <strong>a corebiz</strong>
-            </div>
+            </a>
 
-            <div className='menuFooter'>
+            <a target="_blank" rel='noreferrer' href='https://www.corebiz.ag/pt/about/' className='menuFooter'>
                 <strong>serviços</strong>
-            </div>
+            </a>
 
-            <div className='menuFooter'>
+            <a target="_blank" rel='noreferrer' href='https://www.corebiz.ag/pt/cases/' className='menuFooter'>
                 <strong>cases</strong>
-            </div>
+            </a>
 
-            <div className='menuFooter'>
+            <a target="_blank" rel='noreferrer' href='https://www.corebiz.ag/pt/contato/' className='menuFooter'>
                 <strong>contato</strong>
-            </div>
+            </a>
         </Container>
     )
 }

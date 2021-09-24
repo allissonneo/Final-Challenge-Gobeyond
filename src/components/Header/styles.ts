@@ -29,4 +29,9 @@ export const MenuComponent = styled.div`
             font-size: 25px;
             margin: 0 3rem 0 0;
         }
+        .anchorHeader:hover{
+            color: var(--greyLight);
+            padding-bottom: 1rem;
+            border-bottom: 2px solid var(--white);
+    }
 `;

@@ -31,8 +31,6 @@ export function ItensProvider({ children }: ItensProviderProps) {
                 setSelectedPhoto(response.data[0])
             })
     }, [])
-
-
     return (
         <ItensContext.Provider value={{photos, selectedPhoto, setSelectedPhoto}}>
             {children}

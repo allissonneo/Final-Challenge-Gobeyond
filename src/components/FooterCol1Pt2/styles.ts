@@ -9,6 +9,8 @@ export const Container = styled.div`
         border-bottom: 1px solid;
         margin: 10px;
         font-size: 0.75rem;
+        text-decoration: none;
+        color: var(--black);
     }
 
 `;

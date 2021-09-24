@@ -5,8 +5,9 @@ export const Container = styled.div`
     background: var(--black);
     color: var(--white);
     display: grid;
+    height: 40.625rem;
     h1 {
-        height: 13.125rem;
+        height: 280px;
         text-align: left;
         margin: 5rem 3rem 0 5rem;
         font-size: 60px;
@@ -28,7 +29,7 @@ export const Container = styled.div`
             height: 3.75rem;
             border-radius: 3.125rem;
             margin: 0rem 0 0rem 5rem;
-        font-size: 1.25rem;
+            font-size: 1.25rem;
         &:hover{
             filter: brightness(1.1);
         }

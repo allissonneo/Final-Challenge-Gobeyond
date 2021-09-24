@@ -9,7 +9,7 @@ import { MainContainer } from './styles';
 function App() {
   return (
     <ItensProvider>
-      <Header />
+      <Header/>
       <MainContainer>
         <CardViewMore />
         <CurrentImage/>

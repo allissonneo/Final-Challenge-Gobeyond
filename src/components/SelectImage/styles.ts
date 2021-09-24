@@ -13,18 +13,53 @@ display: flex;
 justify-content: space-between;
 flex-wrap: wrap;
 gap: 2.5rem;
-padding: 40px 0 0 0;
+padding: 5.5rem 0 0 0;
 align-items: center;
 margin: auto;
-margin-bottom: 5rem;
 img 
 {
     cursor: pointer;
     display: block;
     max-width: 70.625rem;
-    width: 6.25rem;
-    height: 6.25rem;
-    /* margin: 5px 0 0 0; */
+    width: 7.5rem;
+    height: 80px;
 
+}
+@media only screen and (max-width: 1280px) {   
+    margin-left: 5rem;
+    gap: 0.1rem; 
+    img 
+    {
+        cursor: pointer;
+        display: block;
+        max-width: 70.625rem;
+        width: 65px;
+        height: 50px;
+    }   
+}
+@media only screen and (min-width: 1430px) {   
+    margin-left: 5rem;
+    gap: 0.8rem; 
+    img 
+    {
+        cursor: pointer;
+        display: block;
+        max-width: 70.625rem;
+        width: 85px;
+        height: 60px;
+    }   
+}
+@media screen and (min-width: 2230px){
+    gap: 1rem; 
+
+    margin-left: 4rem;
+    img 
+    {
+        cursor: pointer;
+        display: block;
+        max-width: 1130px;
+        width: 120px;
+        height: 120px;
+    }
 }
 `;

@@ -15,9 +15,15 @@ export function FooterColumnPrimary(){
             <strong>direitos reservados. corebiz 2021</strong>
             </div>
             <div className='socialMedia'>
-                <img src={facebook} alt="facebook" />
-                <img src={instagram} alt="instagram" />
-                <img src={linkedin} alt="linkedin" />
+                <a href="https://www.facebook.com/AllissonNeo/">
+                <img className='socialMediaIcon' src={facebook} alt="facebook"  />
+                </a>
+                <a href="https://www.instagram.com/allissonneo/">
+                <img className='socialMediaIcon' src={instagram} alt="instagram" />
+                </a>
+                <a href="https://www.linkedin.com/in/allisson-neo/">
+                <img className='socialMediaIcon' src={linkedin} alt="linkedin" />
+                </a>
             </div>
             </div>
             <FooterPtDois/>

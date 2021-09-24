@@ -9,14 +9,19 @@ export const Container = styled.div`
     max-width: 40%;
     gap: 5rem;
     margin-left: 5rem;
-    /* margin-right: 10rem; */
     .divPai{
         display: grid;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
         .parteLogo{
             margin-top: 1.25rem;
             display: grid;
             font-size: 0.75rem;
         }
+    }
+    .socialMediaIcon{
+        width: 1rem;
+        height: 1rem;
     }
         .socialMedia{
             max-width: 5rem;
@@ -25,4 +30,30 @@ export const Container = styled.div`
             display: flex;
             justify-content: space-between;
         }
+        @media only screen and (min-width: 1920px){
+            .divPai{
+            display: grid;
+            padding-top: 4rem;
+            padding-bottom: 4rem;
+            .parteLogo{
+            margin-top: 1.25rem;
+            display: grid;
+            font-size: 0.75rem;
+        }
+    }
+}
+
+@media only screen and (min-width: 860px){
+    gap: 0;
+            .divPai{
+            display: grid;
+            padding-top: 4rem;
+            padding-bottom: 4rem;
+            .parteLogo{
+            margin-top: 1.25rem;
+            display: grid;
+            font-size: 0.75rem;
+        }
+    }
+}
 `;
