@@ -8,11 +8,17 @@ width: 100%;
 flex-wrap: nowrap;
 height: 100%;
 
-@media (max-width: 800px){
+@media (min-width:320px) and (max-width: 425px){
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 95vh;
+    height: 80vh;
+}
+@media (min-width: 426px) and (max-width: 800px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 93vh;
 }
 
 @media screen and (min-width: 1280px){

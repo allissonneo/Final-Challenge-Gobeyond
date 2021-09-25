@@ -44,15 +44,22 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     max-width: 75vw;
-    height: 25vh;
+    min-height: 15vh;
+    width: auto;
+    height: auto;
     h1 {
-        /* margin-top: 5vh; */
-        height: 280px;
+        max-height: 18vh;
+        height: auto;
         text-align: left;
         margin: 2vh;
-        /* margin: 5rem 3rem 0 5rem; */
-        font-size: 1.875rem;
+        font-size: 2.5rem;
         font-weight: 600;
     }
+    .ButtonSeeMore {
+    button {
+        margin: auto;
+        }
+    }
 }
+
 `

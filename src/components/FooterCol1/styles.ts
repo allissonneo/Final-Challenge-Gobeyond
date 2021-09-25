@@ -42,7 +42,22 @@ export const Container = styled.div`
         }
     }
 }
+@media (min-width:320px) and (max-width: 425px){
+    justify-content: center;
+    min-width: 50vw;
+    .divPai{
 
+        /* padding-top: 4rem; */
+        padding-bottom: 20vh;
+        .parteLogo{
+            margin-left: 50vw;
+        }
+        .socialMedia{
+            margin-left: 58vw;
+        }
+    }
+    
+}
 @media only screen and (min-width: 860px){
     gap: 0;
             .divPai{

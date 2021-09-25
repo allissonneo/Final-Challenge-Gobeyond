@@ -23,12 +23,13 @@ export const Container = styled.div`
     max-width: 75vw;
     position: absolute;
     margin: auto;
-    top: 40vh;
+    top: 45vh;
         .borderImage{
             min-width: 20vw;
             max-width: 100vw;                                                                      
             width: auto;
-            height: 40vh;
+            max-height: 40vh;
+            /* height: 40vh; */
             object-fit: cover;
         .imgCurrent{
             border-radius: 0.625rem;
@@ -38,14 +39,30 @@ export const Container = styled.div`
     }
     
     }
-
+    @media only screen and (min-width: 810px) {  
+    margin: auto 1rem auto auto;
+    .borderImage{
+            min-width: 40vw;
+            max-width: 80vw;                                                                      
+            width: auto;
+            height: 65vh;
+            object-fit: cover;
+        .imgCurrent{
+            border-radius: 0.625rem;
+            width: 100%;
+            height: 100%;
+        }
+    }
+  }
  @media only screen and (min-width: 1430px) {  
     margin: auto 1rem auto auto;
     .borderImage{
-            min-width: 30vw;
+            min-width: 60vw;
             max-width: 80vw;                                                                      
+            min-height: 40vh;
             width: auto;
-            height: 40vh;
+
+            /* height: 40vh; */
             object-fit: cover;
         .imgCurrent{
             border-radius: 0.625rem;
@@ -56,13 +73,14 @@ export const Container = styled.div`
   }
 
  @media screen and (min-width: 1440px){
-        max-width: 50vw;
+        max-width: 75vw;
         margin: auto 1rem auto auto;
         .borderImage{
-            min-width: 30vw;
-            max-width: 70vw;                                              
+            min-width: 60vw;
+            max-width: 70vw;
+            min-height: 60vh;
             width: auto;
-            height: 70vh;
+            height: auto;
 
         .imgCurrent{
             border-radius: 0.625rem;

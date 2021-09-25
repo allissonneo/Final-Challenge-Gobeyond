@@ -4,7 +4,7 @@ export function Header() {
     return (
         <Container>
             <Content>
-            <a href='/'>
+            <a className='anchorHome' href='/'>
             <img className='logoBranca' src={logoBrancaImg} alt="Logo Corebiz"/>
             </a>
                 <MenuComponent>

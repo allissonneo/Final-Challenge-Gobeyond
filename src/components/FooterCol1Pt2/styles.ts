@@ -16,8 +16,8 @@ export const Container = styled.div`
         width: 100%;
         position: absolute;
         background: var(--white);
-        top: 88vh;
-        /* bottom: 0; */
+        top: 120vh;
+        left: 0vw;
         height: 20%;
         text-align: center;
     }

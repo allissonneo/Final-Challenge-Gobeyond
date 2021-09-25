@@ -18,4 +18,19 @@ justify-content: space-between;
      display: grid;
     margin: auto;
  }
+
+ @media (min-width:320px) and (max-width: 425px){
+    flex-direction: column;
+    gap: 5vh;
+    
+    br {
+       display:none;
+      }
+      .Card{
+         max-width: 50vw;
+         width: 100%;
+         margin: 0;
+         margin-left: 10vw;
+    }
+ }
 `;

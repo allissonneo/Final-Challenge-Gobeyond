@@ -32,33 +32,49 @@ img
     height: 5rem;
 
 }
-@media (max-width: 800px){
+@media (max-width: 425px){
     position:absolute;
     display: flex;
     justify-content: center;
-    gap: 10vw; 
+    gap: 5vw; 
+    padding: 0;
+    top: 70vh;
+    img 
+    {
+            cursor: pointer;
+            display: block;
+            max-width: 15vw;
+            min-width: 12vw;
+            max-height: 7vh;
+            min-height: 4vh;
+        .selectedPhoto{
+            max-width: 15vw;
+            max-height: 8vh;
+        }
+            
+    }   
+}
+@media (min-width: 430px) and (max-width: 800px){
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    gap: 5vw; 
     padding: 0;
     top: 82vh;
     img 
     {
-        cursor: pointer;
-        display: block;
-        max-width: 130px;
-        width: 75px;
-        height: 50px;
-    }   
-}
-
-@media only screen and (min-width: 1280px) {   
-    margin-left: 5rem;
-    gap: 0.1rem; 
-    img 
-    {
-        cursor: pointer;
-        display: block;
-        max-width: 70.625rem;
-        width: 65px;
-        height: 50px;
+            cursor: pointer;
+            display: block;
+            max-width: 15vw;
+            min-width: 12vw;
+            
+            max-height: 7vh;
+            min-height: 4vh;
+        .selectedPhoto{
+            max-width: 15vw;
+            max-height: 8vh;
+        }
+            
     }   
 }
 @media screen and (min-width: 810px) {   
@@ -73,6 +89,19 @@ img
         height: 60px;
     }   
 }
+@media  screen and (min-width: 1280px) {   
+    margin-left: 5rem;
+    gap: 1rem; 
+    img 
+    {
+        cursor: pointer;
+        display: block;
+        max-width: 70.625rem;
+        width: 90px;
+        height: 50px;
+    }   
+}
+
 @media screen and (min-width: 2230px){
     gap: 1rem; 
 

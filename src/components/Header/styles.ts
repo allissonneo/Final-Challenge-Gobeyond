@@ -8,14 +8,30 @@ export const Container = styled.header`
         margin: 0;
         font-size: 0;
     }
-`;
+    `;
 
 
 export const Content = styled.div`
     justify-content: space-between;
+    display:flex;
     margin: 0 0 0 5rem;
     padding: 3rem 0rem 1rem;
-    display:flex;
+    @media (min-width:320px) and (max-width: 425px){
+        /* background: rebeccapurple; */
+        margin: 0;
+        
+        .anchorHome{
+            /* background: red; */
+            max-width: 15vh;
+            height: 5vh;
+            .logoBranca{
+                margin-left: 5vw;
+                width: 100%;
+            }
+
+        }
+    }
+    
 `;
 
 export const MenuComponent = styled.div`
@@ -34,6 +50,7 @@ export const MenuComponent = styled.div`
             padding-bottom: 1rem;
             border-bottom: 2px solid var(--white);
     }
+    
     @media screen and (max-width: 800px){
         display: none;
     }
