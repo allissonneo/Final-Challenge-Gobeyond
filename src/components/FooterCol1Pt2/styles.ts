@@ -12,5 +12,13 @@ export const Container = styled.div`
         text-decoration: none;
         color: var(--black);
     }
-
+    @media (max-width: 800px){
+        width: 100%;
+        position: absolute;
+        background: var(--white);
+        top: 88vh;
+        /* bottom: 0; */
+        height: 20%;
+        text-align: center;
+    }
 `;

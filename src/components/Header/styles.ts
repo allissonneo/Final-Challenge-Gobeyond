@@ -34,4 +34,7 @@ export const MenuComponent = styled.div`
             padding-bottom: 1rem;
             border-bottom: 2px solid var(--white);
     }
+    @media screen and (max-width: 800px){
+        display: none;
+    }
 `;

@@ -38,5 +38,21 @@ export const Container = styled.div`
             width: 1.25rem;
         }
     }
+
+}
+@media (max-width: 800px){
+    display: flex;
+    flex-direction: column;
+    max-width: 75vw;
+    height: 25vh;
+    h1 {
+        /* margin-top: 5vh; */
+        height: 280px;
+        text-align: left;
+        margin: 2vh;
+        /* margin: 5rem 3rem 0 5rem; */
+        font-size: 1.875rem;
+        font-weight: 600;
+    }
 }
 `
