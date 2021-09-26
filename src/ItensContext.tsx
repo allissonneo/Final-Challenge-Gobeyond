@@ -23,6 +23,7 @@ export const ItensContext = createContext<ItensContentData>({} as ItensContentDa
 export function ItensProvider({ children }: ItensProviderProps) {
     const [photos, setPhotos] = useState<Photos[]>([])
     const [selectedPhoto, setSelectedPhoto] = useState<Photos|undefined>(undefined)
+
     useEffect(() => {
         axios.get('https://my-json-server.typicode.com/allissonneo/APIextends-Placeholder/Images')
             .then(response => {

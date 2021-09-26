@@ -11,7 +11,9 @@ export function CardViewMore() {
         <Container>
            {selectedPhoto && <h1 className="Title">{selectedPhoto.title}</h1>}            
             <div className='ButtonSeeMore'>
+            <a className="anchorButton" href="https://www.corebiz.ag/pt/about/">
             <button>veja mais <img className = 'arrowRightImg' src={arrowRightImg} alt="Arrow Right" /> </button>
+            </a>
             </div>
             <SelectImage/>
         </Container>

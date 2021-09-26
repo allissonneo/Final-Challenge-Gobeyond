@@ -16,6 +16,9 @@ export const Container = styled.div`
     .Title {
         overflow: hidden;
     }
+    .anchorButton{
+        text-decoration: none;
+    }
     .ButtonSeeMore {
         width: max-content;
         height: max-content;

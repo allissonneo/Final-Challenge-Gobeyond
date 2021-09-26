@@ -31,12 +31,11 @@ export const Content = styled.div`
 
         }
     }
-    
-`;
 
-export const MenuComponent = styled.div`
-    display:flex;
-    align-items: flex-start;
+    nav{
+        
+        display:flex;
+        align-items: flex-start;
         a{
             display: inline;
             text-decoration: none;
@@ -49,9 +48,68 @@ export const MenuComponent = styled.div`
             color: var(--greyLight);
             padding-bottom: 1rem;
             border-bottom: 2px solid var(--white);
+        }
+        
     }
-    
     @media screen and (max-width: 800px){
-        display: none;
+        nav{
+            display: none;
+        }
+        .one,
+        .two,
+        .three{
+            background-color: var(--white);
+            height: 5px;
+            width: 100%;
+            margin: 6px auto;
+
+            transition-duration: 0.3s;
+        }
+        .menuToggle{
+            width: 40px;
+            height: 30px;
+            margin-right: 20px;
+        }
+
+        .menuSection.on{
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: var(--greyLight);
+            width: 100vw;
+            height: 100vh;
+            z-index: 10;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            nav{
+                display: block;
+                .anchorHeader{
+                    text-align: center;
+                    display: block;
+                    transition-duration: 0.5s;
+                    font-size: 2.5rem;
+                    line-height: 10rem;
+                    display: block;
+                    
+                }
+            }
+            .menuToggle{
+                position: absolute;
+                right: 5px;
+                top: 45px;
+                .one{
+                    transform: rotate(45deg) translate(7px, 7px);
+                }
+                .two{
+                    opacity: 0;
+                }
+                .three{
+                    transform: rotate(-45deg) translate(8px, -9px);
+                }
+            }
+        }
+        
     }
 `;
+
