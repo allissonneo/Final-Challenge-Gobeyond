@@ -1,5 +1,0 @@
-User-agent: *
-Disallow: /nogooglebot/
-Allow: /
-
-Sitemap: https://final-challenge-gobeyond.vercel.app/sitemap.xml
