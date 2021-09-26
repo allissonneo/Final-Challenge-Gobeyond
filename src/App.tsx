@@ -3,7 +3,7 @@ import { CurrentImage } from './components/CurrentImage';
 import { FooterCompleted } from './components/FooterComplete';
 import { Header } from './components/Header';
 import { ItensProvider } from './ItensContext';
-import { MainContainer } from './styles';
+import { MainContainer } from './styles/styles';
 
 
 function App() {
