@@ -25,7 +25,7 @@ export function ItensProvider({ children }: ItensProviderProps) {
     const [selectedPhoto, setSelectedPhoto] = useState<Photos|undefined>(undefined)
 
     useEffect(() => {
-        axios.get('https://my-json-server.typicode.com/allissonneo/APIextends-Placeholder/Images')
+        axios.get('https://my-json-server.typicode.com/allissonneo/APIextends-Placeholder/Images?_limit=4')
             .then(response => {
                 setPhotos(response.data)
                 setSelectedPhoto(response.data[0])
